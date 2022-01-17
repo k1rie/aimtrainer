@@ -1,0 +1,39 @@
+#pause{
+    display: flex;
+}
+
+#pausebtn{
+    margin-top: 20px;
+}
+
+#settings{
+    cursor: pointer;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+    position: fixed;
+    display: none;
+}
+
+#menuoptions{
+display: flex;
+width: 50%;
+height: 100%;
+outline: 1px solid black;
+align-items: center;
+flex-direction: column;
+}
+
+#savebtn{
+    margin-top: 10px;
+}
+
+#quiticon{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}

@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
+    <img src="icons8-settings.svg" id="settings"/>
     <div id="score">Score:</div>
+    <div id="totaltargets">Total Targets:</div>
+    <div id="pause">
+        <p>Pause</p>
+    <input type="checkbox" id="pausebtn" checked = "true">
+
+</div>
+<select id="dificulty">
+    <option>Dificultad</option>
+    <option value="easy">Easy</option>
+    <option value="medium">Medium</option>
+    <option value="hard">Hard</option>
+</select>
+<div id="menu">
+<div id="menuoptions">
+    <div class="menu__options">
+    <p id="targetimg">Target IMG</p>
+    <input type="text" id="targeturl">
+</div>
+<div class="menu__options">
+    <p id="backgroundimg">Background IMG</p>
+    <input type="text" id="backgroundurl">
+</div>
+<button id="savebtn">Save</button>
+<img src="img_110219.png" id="quiticon"/>
+</div>
+</div>
 </body>
 <script src="index.js"></script>
 </html>
